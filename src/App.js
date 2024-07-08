@@ -1,10 +1,17 @@
-import Accordion from './components/Accordion';
-function App() {
+import React from "react";
+import "./App.css";
+import Hero from "./component/Hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+const App = () => {
   return (
-    <>
-      <Accordion />
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
-}
+};
 
 export default App;
