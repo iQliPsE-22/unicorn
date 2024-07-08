@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import hero1 from "../assets/hero1.jpeg";
-import "./hero.css";
 import open from "../assets/open.png";
 import close from "../assets/close.png";
 import { Link } from "react-router-dom";

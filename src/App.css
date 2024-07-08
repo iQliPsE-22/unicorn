@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Itim&family=Julius+Sans+One&display=swap");
 
-/* .hero-container {
-  background-image: url("./assets/hero1.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-} */
+::-webkit-scrollbar{
+  display: none;
+}
 
 .quicksand {
   font-family: "Quicksand", sans-serif;
@@ -20,4 +16,7 @@
 }
 .itim {
   font-family: "Itim", sans-serif;
+}
+.hamburger-menu {
+  transition: transform 0.3s ease-in-out;
 }
